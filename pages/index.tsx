@@ -19,7 +19,7 @@ const item = {
 
 
 export default function Home() {
-  const arr = range(1, 300)
+  const arr = range(1, 1000)
 
   return (
     <Container>
