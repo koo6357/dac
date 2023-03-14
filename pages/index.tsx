@@ -98,13 +98,12 @@ const ItemContainer = styled.div`
     position: relative;
     margin-top: 12px;
     margin-bottom: 12px;
-    height: 180px;
-    width: 180px;
-    overflow: hidden;
     border-radius: 4px;
-    background-size: cover;
-    background-position: center center;
-    background-image: url('https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/eth-mainnet/e4ae80a81d0943130e2740fa559078e0');
+    img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
 
     &::before, &::after {
       position: absolute;
