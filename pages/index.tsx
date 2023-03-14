@@ -67,6 +67,9 @@ const Col = styled.div`
   width: 20%;
   padding: 10px;
   margin-bottom: 20px;
+  @media (max-width: 768px) {
+    width: 50%;
+  }
 `;
 
 
